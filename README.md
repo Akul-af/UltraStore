@@ -44,6 +44,3 @@ UltraStore.exe
 - Built with Python + OpenCV + NumPy.
 - Packaged into .exe with PyInstaller.
 - ffmpeg bundled inside the executable.
-
-👉 With this README, UltraStore will look polished and professional on GitHub. You can drop in your compiled .exe under Releases so people can test it right away.
-Would you like me to also draft a benchmark script (Python harness) that automatically runs encode/decode on a batch of files and outputs success rates + timing? That way you can generate reproducible numbers to back up the table above.
