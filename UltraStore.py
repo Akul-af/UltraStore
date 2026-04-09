@@ -21,11 +21,11 @@ def encode_to_lossless_mkv(filename, output_name="output.mkv", framerate=1):
     extension = os.path.splitext(filename)[1] or ""
 
     # Dynamic frame dimension based on file size
-    if filesize <= 4 * 1024:
+    if filesize <= 100 * 1024:
         final_dim = 256
-    elif filesize <= 64 * 1024:
+    elif filesize <= 6400 * 1024:
         final_dim = 512
-    elif filesize <= 1024 * 1024:
+    elif filesize <= 102400 * 1024:
         final_dim = 1024
     else:
         final_dim = 2048
